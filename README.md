@@ -190,10 +190,12 @@ npm install
 ### Running the Project Locally
 
 The following command runs the project in development mode, starts a server,
-and configures hot-reload.
+and configures hot-reload also run an script that helps to scaffolding all files
+for a component (.vue, index.ts, .mock.ts, .test.ts) with only create a folder
+with the component's name inside of atoms, molecules, organisms, layouts or view folders.
 
 ``` bash
-npm run serve
+npm run dev
 ```
 
 To run the application in production mode, execute the following command:
